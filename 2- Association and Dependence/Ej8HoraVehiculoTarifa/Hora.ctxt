@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Hora
+comment1.params=h\ m
+comment1.target=Hora(int,\ int)
+comment2.params=c
+comment2.target=void\ establecerHora(int)
+comment3.params=c
+comment3.target=void\ establecerMinutos(int)
+comment4.params=h
+comment4.target=void\ copy(Hora)
+comment5.params=
+comment5.target=int\ obtenerHora()
+comment6.params=
+comment6.target=int\ obtenerMinutos()
+comment7.params=c
+comment7.target=boolean\ equals(Hora)
+comment8.params=c
+comment8.target=int\ diferenciaMinutos(Hora)
+comment9.params=c
+comment9.target=boolean\ anterior(Hora)
+numComments=10

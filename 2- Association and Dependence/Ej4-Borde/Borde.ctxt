@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Borde
+comment1.params=g\ c
+comment1.target=Borde(int,\ Color)
+comment2.params=g
+comment2.target=void\ establecerGrosor(int)
+comment3.params=c
+comment3.target=void\ establecerColor(Color)
+comment4.params=b
+comment4.target=void\ copy(Borde)
+comment5.params=
+comment5.target=int\ obtenerGrosor()
+comment6.params=
+comment6.target=Color\ obtenerColor()
+comment7.params=
+comment7.target=Borde\ clone()
+comment8.params=b
+comment8.target=boolean\ equals(Borde)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10
