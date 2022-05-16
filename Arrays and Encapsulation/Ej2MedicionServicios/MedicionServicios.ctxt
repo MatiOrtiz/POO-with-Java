@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MedicionServicios
+comment1.params=g\ a\ e
+comment1.target=MedicionServicios(int,\ int,\ int)
+comment2.params=g
+comment2.target=void\ establecerGas(int)
+comment3.params=a
+comment3.target=void\ establecerAgua(int)
+comment4.params=e
+comment4.target=void\ establecerElectricidad(int)
+comment5.params=
+comment5.target=int\ obtenerGas()
+comment6.params=
+comment6.target=int\ obtenerAgua()
+comment7.params=
+comment7.target=int\ obtenerElectricidad()
+comment8.params=
+comment8.target=float\ costoServicios()
+numComments=9

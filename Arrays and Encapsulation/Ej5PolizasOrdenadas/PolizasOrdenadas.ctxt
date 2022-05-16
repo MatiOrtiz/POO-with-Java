@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=PolizasOrdenadas
+comment1.params=max
+comment1.target=PolizasOrdenadas(int)
+comment10.params=pos
+comment10.target=Poliza\ obtenerPoliza(int)
+comment11.params=p
+comment11.target=PolizasOrdenadas\ intercalar(PolizasOrdenadas)
+comment12.params=p
+comment12.target=boolean\ equals(PolizasOrdenadas)
+comment2.params=pol
+comment2.target=void\ insertar(Poliza)
+comment3.params=d\ h\ p
+comment3.target=void\ actualizar(int,\ int,\ int)
+comment4.params=p
+comment4.target=void\ copy(PolizasOrdenadas)
+comment5.params=
+comment5.target=int\ cantPolizas()
+comment6.params=
+comment6.target=int\ cantElementos()
+comment7.params=
+comment7.target=boolean\ estaLlena()
+comment8.params=nro
+comment8.target=boolean\ existePoliza(int)
+comment9.params=pol
+comment9.target=boolean\ existePoliza(Poliza)
+numComments=13

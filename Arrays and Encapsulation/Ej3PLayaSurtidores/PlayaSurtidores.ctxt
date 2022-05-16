@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=PlayaSurtidores
+comment1.params=n
+comment1.target=PlayaSurtidores(int)
+comment10.params=ps
+comment10.target=boolean\ mismosNulos(PlayaSurtidores)
+comment11.params=
+comment11.target=PlayaSurtidores\ clone()
+comment12.params=n
+comment12.target=PlayaSurtidores\ nLigados(int)
+comment2.params=s\ p
+comment2.target=void\ establecerSurtidor(Surtidor,\ int)
+comment3.params=s
+comment3.target=void\ establecerSurtidor(Surtidor)
+comment4.params=
+comment4.target=void\ llenaDepositos()
+comment5.params=
+comment5.target=void\ agrupaSurtidores()
+comment6.params=
+comment6.target=int\ cantPosiciones()
+comment7.params=
+comment7.target=int\ cantSurtidores()
+comment8.params=p
+comment8.target=Surtidor\ obtenerSurtidor(int)
+comment9.params=
+comment9.target=int\ cantMaximaCarga()
+numComments=13
