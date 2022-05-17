@@ -1,48 +1,48 @@
 
 public class Sensor{
-    //Atributos de Clase
-    private float max;
     
-    //Atributos de Instancia 
+    //Atributos de Clase
+    private final double max = 0.01;
+    
+    //Atributos de Instancia
     private float p1;
     private float p2;
     
     //Constructor
-    public Sensor(float pUno, float pDos){
-        p1 = pUno;
-        p2 = pDos;
+    public Sensor(float p1, float p2){
+        this.p1 = p1;
+        this.p2 = p2;
     }
     
     //Comandos 
     public void establecerP1(float p){
-        p1 = p;
+        this.p1 = p;    
     }
     public void establecerP2(float p){
-        p2 = p;
+        this.p2 = p;    
     }
-    public void copy(Sensor s){
-        p1 = s.obtenerP1();
-        p2 = s.obtenerP2();
+    public void copy (Sensor s){
+        this.p1 = s.obtenerP1();
+        this.p2 = s.obtenerP2();
     }
     
-    //Consultas 
+    //Consultas
     public float obtenerP1(){
-        return p1;
+        return p1;    
     }
     public float obtenerP2(){
-        return p2;
+        return p2;    
     }
     public boolean riesgo(){
-            
+        return p2 > p1;    
     }
     public boolean emergencia(){
-        
+        return p1 < max;    
     }
     public boolean equals(Sensor s){
-        return p1 == s.obtenerP1() && p2 == s.obtenerP2();
+        return (this.p1 == s.obtenerP1() && this.p2 == s.obtenerP2());    
     }
     public Sensor clone(){
-        Sensor s = new Sensor(p1, p2);
-        return s;
+        return new Sensor(p1,p2);
     }
 }
