@@ -43,13 +43,21 @@ public class FilaSensores{
         return cont;
     }
     public int cantidadRiesgo(){
-        
+        int cant=0;
+        for(int i=0; i<cantFila(); i++)    
+            if(fs[i].riesgo() == true)
+                cant++;
+        return cant;
     }
     public boolean hayNRiesgo(int n){
-        
+        return cantidadRiesgo() == n;
     }
     public boolean dosConsecutivosEmergencia(){
-        
+        boolean consecutivos=false;  
+        for(int i=0; i<cantFila()-1 && !consecutivos; i++)
+            if(fs[i].riesgo()==true && fs[i+1].riesgo()==true)
+                consecutivos= true;
+        return consecutivos;
     }
     public boolean equals(FilaSensores a){
         boolean igual= true;
