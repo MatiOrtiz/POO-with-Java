@@ -38,16 +38,46 @@ public class TableroSensores{
         return grilla[f][c];
     }
     public int cantFilasRiesgo(){
-        
+        boolean hayRiesgo=false;
+        int cant=0;
+        for(int f=0; f<cantFilas(); f++)
+            for(int c=0; c<cantColumnas() && !hayRiesgo; c++){
+                hayRiesgo=false;
+                if(grilla[f][c].riesgo()==true){
+                    cant++;
+                    hayRiesgo=true;
+                }
+            }
+        return cant;
     }
     public boolean todosEnEmergencia(){
-        
+        boolean todos=true;
+        for(int f=0; f<cantFilas(); f++)
+            for(int c=0; c<cantColumnas(); c++)
+                if(grilla[f][c].riesgo()==false)
+                    todos= false;
+        return todos;
     }
     public boolean hayNRiesgoCol(int c, int n){
-        
+        int cant;
+        boolean riesgo=false;
+        for(int f=0; f<cantFilas(); f++){
+            cant=0;
+            for(int i=0; i<cantColumnas() && cant<=n; i++){
+                if(grilla[f][c].riesgo()==true){
+                    cant++;
+                }
+            }
+            riesgo= cant<=n;
+        }
+        return riesgo;
     }
     public boolean dosConsecutivosEmergenciaFila(int f){
-        
+        boolean consecutivos=false;
+        for(int c=0; c<cantColumnas()-1 && !consecutivos; c++)
+            if(grilla[f][c].riesgo()==true && grilla[f][c+1].riesgo()==true)
+                consecutivos=true;
+        return consecutivos;
     }
     public int contarCoincidencias(TableroSensores gs){
         int cont=0;
