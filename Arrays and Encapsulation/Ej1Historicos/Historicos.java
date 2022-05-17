@@ -21,7 +21,7 @@ public class Historicos{
         Jugador jugadores;
         for(int i=0; i<cantPosiciones(); i++)
             for(int j=i+1; j<cantPosiciones(); j++)
-                if(jugadoresHistoricos[j].compareTo(jugadoresHistoricos[i])){
+                if(jugadoresHistoricos[j].obtenerNombre().compareTo(jugadoresHistoricos[i].obtenerNombre())<0){
                     jugadores = jugadoresHistoricos[i];
                     jugadoresHistoricos[i] = jugadoresHistoricos[j];
                     jugadoresHistoricos[j] = jugadores;
