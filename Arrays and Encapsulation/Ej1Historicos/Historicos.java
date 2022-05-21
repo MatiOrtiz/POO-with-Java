@@ -19,13 +19,16 @@ public class Historicos{
     public void ordenar(){
         boolean huboIntercambios= true;
         Jugador jugadores;
-        for(int i=0; i<cantPosiciones(); i++)
-            for(int j=i+1; j<cantPosiciones(); j++)
-                if(jugadoresHistoricos[j].obtenerNombre().compareTo(jugadoresHistoricos[i].obtenerNombre())<0){
-                    jugadores = jugadoresHistoricos[i];
-                    jugadoresHistoricos[i] = jugadoresHistoricos[j];
-                    jugadoresHistoricos[j] = jugadores;
-                }
+        for(int i=0; i<cantPosiciones() && huboIntercambios; i++){
+            huboIntercambios= false;
+            for(int j=0; j<cantPosiciones(); j++)
+                if(jugadoresHistoricos[j].obtenerNombre().compareTo(jugadoresHistoricos[j+1].obtenerNombre())>0){
+                    jugadores = jugadoresHistoricos[j];
+                    jugadoresHistoricos[j] = jugadoresHistoricos[j+1];
+                    jugadoresHistoricos[j+1] = jugadores;
+                    huboIntercambios= true;
+                } 
+        }
     }
     
     //Consultas
