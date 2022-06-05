@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Rubrica
+comment1.params=l\ c\ a\ r
+comment1.target=Rubrica(int,\ int,\ int,\ int)
+comment10.params=
+comment10.target=int\ total()
+comment11.params=
+comment11.target=float\ promedio()
+comment12.params=
+comment12.target=float\ productividad()
+comment2.params=p
+comment2.target=void\ establecerComunicacion(int)
+comment3.params=p
+comment3.target=void\ establecerAutonomia(int)
+comment4.params=p
+comment4.target=void\ establecerResponsabilidad(int)
+comment5.params=
+comment5.target=int\ obtenerLegajo()
+comment6.params=
+comment6.target=int\ obtenerComunicacion()
+comment7.params=
+comment7.target=int\ obtenerAutonomia()
+comment8.params=
+comment8.target=int\ obtenerResponsabilidad()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=13

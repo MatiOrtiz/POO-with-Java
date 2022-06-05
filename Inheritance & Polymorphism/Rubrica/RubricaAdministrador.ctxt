@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RubricaAdministrador
+comment1.params=l\ c\ a\ r\ go\ ga\ p
+comment1.target=RubricaAdministrador(int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ aumentarProyectos()
+comment3.params=
+comment3.target=int\ obtenerProyectos()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=float\ productividad()
+numComments=6

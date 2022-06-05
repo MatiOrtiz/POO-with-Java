@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=PolizaEscolar
+comment1.params=np
+comment1.target=PolizaEscolar(int)
+comment2.params=np\ i\ r\ ca\ cd
+comment2.target=PolizaEscolar(int,\ float,\ float,\ int,\ int)
+comment3.params=n
+comment3.target=void\ establecerCantAlumnos(int)
+comment4.params=n
+comment4.target=void\ establecerCantDocentes(int)
+comment5.params=
+comment5.target=int\ obtenerCantAlumnos()
+comment6.params=
+comment6.target=int\ obtenerCantDocentes()
+comment7.params=p
+comment7.target=float\ obtenerCostoPoliza(int)
+numComments=8

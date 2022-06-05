@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Staff
+comment1.params=max
+comment1.target=Staff(int)
+comment2.params=r
+comment2.target=boolean\ agregarRubrica(Rubrica)
+comment3.params=p
+comment3.target=void\ eliminar(int)
+comment4.params=
+comment4.target=boolean\ estaLlena()
+comment5.params=
+comment5.target=int\ cantPosiciones()
+comment6.params=
+comment6.target=int\ cantRubricas()
+comment7.params=p
+comment7.target=Rubrica\ obtenerRubrica(int)
+comment8.params=p
+comment8.target=int\ contarMayorP(int)
+comment9.params=t
+comment9.target=Staff\ totalMayorT(int)
+numComments=10

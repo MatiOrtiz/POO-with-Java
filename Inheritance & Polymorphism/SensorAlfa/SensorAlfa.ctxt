@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SensorAlfa
+comment1.params=pU\ pD\ pT\ pC
+comment1.target=SensorAlfa(float,\ float,\ float,\ float)
+comment2.params=p
+comment2.target=void\ establecerP3(float)
+comment3.params=p
+comment3.target=void\ establecerP4(float)
+comment4.params=
+comment4.target=float\ obtenerP3()
+comment5.params=
+comment5.target=float\ obtenerP4()
+comment6.params=
+comment6.target=boolean\ riesgo()
+comment7.params=
+comment7.target=boolean\ emergencia()
+comment8.params=
+comment8.target=SensorAlfa\ clone()
+comment9.params=e
+comment9.target=boolean\ equals(Sensor)
+numComments=10

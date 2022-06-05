@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RubricaLider
+comment1.params=l\ c\ a\ r\ go\ ga
+comment1.target=RubricaLider(int,\ int,\ int,\ int,\ int,\ int)
+comment2.params=p
+comment2.target=void\ establecerConflictos(int)
+comment3.params=p
+comment3.target=void\ establecerCambios(int)
+comment4.params=
+comment4.target=int\ obtenerConflictos()
+comment5.params=
+comment5.target=int\ obtenerCambios()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=
+comment7.target=int\ total()
+comment8.params=
+comment8.target=float\ promedio()
+numComments=9

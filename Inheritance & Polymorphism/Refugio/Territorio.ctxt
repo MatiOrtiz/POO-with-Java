@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Territorio
+comment1.params=nf\ nc
+comment1.target=Territorio(int,\ int)
+comment10.params=
+comment10.target=ColeccionRefugios\ coleccionFila()
+comment11.params=
+comment11.target=Territorio\ clone()
+comment2.params=r\ f\ c
+comment2.target=boolean\ establecerRefugio(Refugio,\ int,\ int)
+comment3.params=
+comment3.target=int\ cantFilas()
+comment4.params=
+comment4.target=int\ cantColumnas()
+comment5.params=
+comment5.target=int\ cantRefugios()
+comment6.params=
+comment6.target=int\ filaMasPoblada()
+comment7.params=f\ n
+comment7.target=boolean\ maximoNRefugiosHabitables(int,\ int)
+comment8.params=m
+comment8.target=int\ cantConDisponibilidadMayor(int)
+comment9.params=
+comment9.target=boolean\ territorioEspejo()
+numComments=12

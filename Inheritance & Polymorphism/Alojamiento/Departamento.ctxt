@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Departamento
+comment1.params=id\ p\ a\ b
+comment1.target=Departamento(int,\ int,\ int,\ boolean)
+comment2.params=
+comment2.target=boolean\ tieneBalcon()
+comment3.params=p
+comment3.target=float\ costoDiario(int)
+numComments=4

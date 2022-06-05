@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Figura
+comment1.params=
+comment1.target=float\ area()
+comment2.params=
+comment2.target=float\ perimtero()
+comment3.params=
+comment3.target=Punto\ centro()
+comment4.params=f
+comment4.target=boolean\ equals(Figura)
+numComments=5

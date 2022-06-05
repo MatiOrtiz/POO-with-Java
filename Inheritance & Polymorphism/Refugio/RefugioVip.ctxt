@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=RefugioVip
+comment1.params=a\ b\ c\ s
+comment1.target=RefugioVip(int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=boolean\ ocuparSillon()
+comment3.params=
+comment3.target=boolean\ desocuparSillon()
+comment4.params=
+comment4.target=int\ obtenerSillones()
+comment5.params=
+comment5.target=int\ disponibilidad()
+comment6.params=
+comment6.target=RefugioVip\ clone()
+numComments=7

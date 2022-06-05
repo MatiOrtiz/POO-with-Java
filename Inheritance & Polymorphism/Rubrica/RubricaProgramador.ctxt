@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RubricaProgramador
+comment1.params=l\ c\ a\ r\ lc
+comment1.target=RubricaProgramador(int,\ int,\ int,\ int,\ int)
+comment2.params=p
+comment2.target=void\ aumentarLineasCodigo(int)
+comment3.params=
+comment3.target=int\ obtenerLineasCodigo()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=float\ productividad()
+numComments=6

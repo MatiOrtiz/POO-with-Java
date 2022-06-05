@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Punto
+comment1.params=x\ y
+comment1.target=Punto(float,\ float)
+comment2.params=x
+comment2.target=void\ establecerX(float)
+comment3.params=y
+comment3.target=void\ establecerY(float)
+comment4.params=
+comment4.target=float\ obtenerX()
+comment5.params=
+comment5.target=float\ obtenerY()
+numComments=6
