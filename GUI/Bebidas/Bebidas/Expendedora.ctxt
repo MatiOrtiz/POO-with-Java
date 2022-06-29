@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Expendedora
+comment1.params=
+comment1.target=Expendedora()
+comment2.params=
+comment2.target=void\ armaPanelSup()
+comment3.params=
+comment3.target=void\ armaPanelMed()
+comment4.params=
+comment4.target=void\ armaPanelInf()
+numComments=5
